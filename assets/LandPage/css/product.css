@@ -1,0 +1,360 @@
+div.page-header-breadcrumb{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+ul.breadcrumb-title li {
+  display: inline;
+}
+ul.breadcrumb-title li a{
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+ul.breadcrumb-title li+li:before {
+  color: black;
+  content: ' \2023';
+  font-size:18px;
+}
+
+.user-rating .fa {
+  font-size: 22px;
+}
+
+.user-rating .checked {
+  color: orange;
+}
+.user-rating .votes {
+  margin-left: 10px;
+  color: deepskyblue;
+  text-decoration: underline;
+}
+.new-price{
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 15px;
+}
+.old-price{
+   font-size:16px;
+   text-decoration-line: line-through; 
+}
+
+@media screen and (max-width: 565px) {
+   .product-title{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    }
+    .product-simage{
+     max-width: 300px;
+     max-height: 300px;
+     
+    }
+    .product-limage{
+        display: none;
+    }
+    .product-info{
+        font-size: 14px;
+    }
+    .notice-info{
+        font-size: 11px;
+    }
+    .banner-btn-group{
+        display: none
+    }
+    .mobile-btn-group .btn{
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 24px;
+        padding: 8px 18px;
+    }
+    .web-social-links{
+        display: none;
+    } 
+    .mobile-social-links li{
+         display: inline;
+         padding: 10px;
+         text-align: center;
+         text-decoration: none;
+         margin: 5px 12px;
+         border-radius: 50%;
+         background: #BEBEBE;
+    }
+    .controls{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .controls>div{
+        margin: 5px;
+    }
+    .size form{
+        width: 100px;
+        border: 1px solid #DCDCDC;
+        border-radius: 16px;
+        background: white;
+        padding: 4px 16px;
+    }
+    .qty-incrementer{
+        width: 100px;
+        border: 1px solid #DCDCDC;
+        border-radius: 16px;
+        background: white;
+        padding: 3px 8px;
+    }
+     
+    .product-colors{
+        width: 100px;
+        border: 1px solid #DCDCDC;
+        border-radius: 18px;
+        background: white;
+    }
+  .product-colors div{
+        display: inline-block;
+    }
+   .product-colors input[type="radio"]{
+        display: none;
+    } 
+    .product-colors input[type="radio"]+label span{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin: -1px 1px -1px 0;
+        vertical-align: middle;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+   
+    .product-colors input[type="radio"]#Maroon
+      + label span{
+      background-color: #800000;    
+    }
+     .product-colors input[type="radio"]#darkgrey      + label span{
+      background-color: #A9A9A9;    
+    }
+     .product-colors input[type="radio"]#black  + label span{
+      background-color: #585858;    
+    }
+     .product-colors input[type="radio"]:checked  + label span{
+      background-image: url(../img/Web/check.svg) ;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: white;
+    }
+
+}
+@media screen and (min-width: 768px) {
+   .product-title{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-weight: 700;
+    }
+    .product-simage{
+        display: none;
+    }
+    .product-limage{
+        width: 100%
+    }
+    .banner-btn-group .btn{
+       font-size: 14px;
+        font-weight: 600;
+        border-radius: 24px;
+        padding: 8px 18px;
+    }
+    .mobile-btn-group{
+        display: none
+    }
+    .controls{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .controls>div{
+        margin: 10px;
+    }
+     .size form{
+        width: 100px;
+        border: 1px solid #DCDCDC;
+        border-radius: 16px;
+        background: white;
+        padding: 4px 16px;
+    }
+    .qty-incrementer{
+        width: 100px;
+        border: 1px solid #DCDCDC;
+        border-radius: 16px;
+        background: white;
+        padding: 3px 8px;
+    }
+     
+    .product-colors{
+        width: 100px;
+        border: 1px solid #DCDCDC;
+        border-radius: 18px;
+        background: white;
+    }
+  .product-colors div{
+        display: inline-block;
+    }
+   .product-colors input[type="radio"]{
+        display: none;
+    } 
+    .product-colors input[type="radio"]+label span{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin: -1px 1px -1px 0;
+        vertical-align: middle;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+   
+    .product-colors input[type="radio"]#Maroon
+      + label span{
+      background-color: #800000;    
+    }
+     .product-colors input[type="radio"]#darkgrey      + label span{
+      background-color: #A9A9A9;    
+    }
+     .product-colors input[type="radio"]#black  + label span{
+      background-color: #585858;    
+    }
+     .product-colors input[type="radio"]:checked  + label span{
+      background-image: url(../img/Web/check.svg) ;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: white;
+    }
+     .web-social-links {
+        margin-top: 20px;
+        margin-left: -30px;
+        position: absolute;
+    
+    }
+     .web-social-links li{
+        display: inline;
+         padding: 5px;
+         text-align: center;
+         text-decoration: none;
+         margin: 5px 15px;
+         border-radius: 50%;
+        background: #696969;
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .product-title{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 56px;
+    font-weight: 700;
+    }
+     .banner-btn-group .btn{
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 24px;
+        padding: 8px 28px;
+    }
+    .web-social-links {
+        margin-top: 20px;
+        margin-left: -30px;
+        position: absolute;
+    
+    }
+    .web-social-links li{
+        display: inline;
+         padding: 5px;
+         text-align: center;
+         text-decoration: none;
+         margin: 5px 15px;
+         border-radius: 50%;
+        background: #696969;
+        
+    }
+    .mobile-social-links{
+        display: none;
+    }
+    .controls{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .controls>div{
+        margin: 10px;
+    }
+    .size form{
+        width: 100px;
+        border: 1px solid #DCDCDC;
+        border-radius: 16px;
+        background: white;
+        padding: 4px 16px;
+    }
+    .qty-incrementer{
+        width: 100px;
+        border: 1px solid #DCDCDC;
+        border-radius: 16px;
+        background: white;
+        padding: 3px 8px;
+    }
+     
+    .product-colors{
+        width: 100px;
+        border: 1px solid #DCDCDC;
+        border-radius: 18px;
+        background: white;
+    }
+  .product-colors div{
+        display: inline-block;
+    }
+   .product-colors input[type="radio"]{
+        display: none;
+    } 
+    .product-colors input[type="radio"]+label span{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin: -1px 1px -1px 0;
+        vertical-align: middle;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+   
+    .product-colors input[type="radio"]#Maroon
+      + label span{
+      background-color: #800000;    
+    }
+     .product-colors input[type="radio"]#darkgrey      + label span{
+      background-color: #A9A9A9;    
+    }
+     .product-colors input[type="radio"]#black  + label span{
+      background-color: #585858;    
+    }
+     .product-colors input[type="radio"]:checked  + label span{
+      background-image: url(../img/Web/check.svg) ;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: white;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+
