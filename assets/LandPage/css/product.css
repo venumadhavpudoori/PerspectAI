@@ -42,7 +42,7 @@ ul.breadcrumb-title li+li:before {
 @media screen and (max-width: 565px) {
    .product-title{
     font-family: "Times New Roman", Times, serif;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
     }
